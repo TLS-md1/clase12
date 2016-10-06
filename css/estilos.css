@@ -1,0 +1,67 @@
+body{
+	background-color: gray;
+}
+/*Clases generales*/
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	outline: 1px solid black;
+}
+.btn{
+
+}
+/*Header*/
+
+header{}
+header #box-header-up{
+}
+
+header #box-header-up .box-logo,
+header #box-header-up .box-menu{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header #box-header-up .box-logo{
+	width: 40%;
+}
+header #box-header-up .box-logo img{}
+
+header #box-header-up .box-menu{
+	text-align: right;
+	width: 58%;
+}
+header #box-header-up .box-menu nav{}
+header #box-header-up .box-menu nav ul{}
+header #box-header-up .box-menu nav ul li{
+	display: inline-block;
+}
+header #box-header-up .box-menu nav ul li a{
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-left: 15px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+header #box-header-content{
+	background-color: green;
+	text-align: center;
+}
+header #box-header-content h1{
+	font-size: 100px;
+}
+header #box-header-content h1 span{
+	font-size: 10px;
+	display: block;
+}
+header #box-header-content p{}
+header #box-header-content p a{
+	color: blue;
+}
+
+
+
+
+
+
